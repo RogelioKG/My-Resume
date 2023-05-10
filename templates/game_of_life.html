@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset = "UTF-8" />
+    <title>The Game of Life</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/game_of_life.css') }}">
+</head>
+
+<body>
+
+    <div id="gridContainer">
+    </div>
+
+    <div class="controls">
+        <button id="start"><span>Start</span></button>
+        <button id="clear"><span>Clear</span></button>
+        <button id="random"><span>Random</span></button>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/game_of_life.js') }}"></script>
+
+</body>
+
+</html>
